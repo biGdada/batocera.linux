@@ -132,6 +132,7 @@ config BR2_PACKAGE_BATOCERA_SYSTEM
                                                             BR2_PACKAGE_BATOCERA_TARGET_VIM3         || \
                                                             BR2_PACKAGE_BATOCERA_TARGET_ODROIDC2     || \
                                                             BR2_PACKAGE_BATOCERA_TARGET_ODROIDC4     || \
+                                                            BR2_PACKAGE_BATOCERA_TARGET_S905         || \
                                                             BR2_PACKAGE_BATOCERA_TARGET_S912         || \
                                                             BR2_PACKAGE_BATOCERA_TARGET_LIBRETECH_H5
 
@@ -661,6 +662,7 @@ config BR2_PACKAGE_BATOCERA_KODI18
        select BR2_PACKAGE_KODI_AUDIOENCODER_LAME
        select BR2_PACKAGE_KODI_AUDIOENCODER_VORBIS
        select BR2_PACKAGE_KODI_AUDIOENCODER_WAV
+       select BR2_PACKAGE_KODI_INPUTSTREAM_ADAPTIVE
        select BR2_PACKAGE_KODI_INPUTSTREAM_RTMP
        select BR2_PACKAGE_KODI_PVR_ARGUSTV
        select BR2_PACKAGE_KODI_PVR_DVBLINK
